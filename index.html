@@ -173,7 +173,7 @@ in forming a household filled with serenity (sakinah), affection (mawaddah), and
         <div class="owl-stage-outer">
           <div class="owl-stage">
             <div class="owl-item">
-              <img src="img/an14.jpg" alt="" srcset="" />
+              <img src="img/an14.JPG" alt="" srcset="" />
             </div>
             <div class="owl-item">
               <img src="img/an15.JPG" alt="" srcset="" />
@@ -265,11 +265,8 @@ in forming a household filled with serenity (sakinah), affection (mawaddah), and
       <div class="photo owl-carousel owl-theme owl-loaded" id="photo-gallery">
         <div class="owl-stage-outer">
           <div class="owl-stage">
-            <!-- <div class="owl-item">
-              <img src="img/an13.JPG" alt="" srcset="" />
-            </div> -->
             <div class="owl-item">
-              <img src="img/an11.JPG" alt="" srcset="" />
+              <img src="img/an11.jpg" alt="" srcset="" />
             </div>
           </div>
         </div>
@@ -341,26 +338,33 @@ in forming a household filled with serenity (sakinah), affection (mawaddah), and
 
       <div class="row bg-red center">
         <div class="box-lg">
-          <form action="" id="form-wishes">
+          <form action="https://formsubmit.co/anastlpl10@gmail.com" method="POST" id="form-wishes">
+            <!-- Disable CAPTCHA -->
+            <input type="hidden" name="_captcha" value="false">
+
+            <!-- Redirect after success -->
+            <input type="hidden" name="_next" value="https://anastthalappil.github.io/Wedding-website/thankyou.html">
+
             <h4>Send Wishes</h4>
-            <input type="text" name="name" placeholder="Name" id="name" />
-            <input
-              type="text"
-              name="address"
-              placeholder="Address"
-              id="address"
-            />
+
+            <input type="text" name="name" placeholder="Name" id="name" required />
+            <input type="text" name="address" placeholder="Address" id="address" />
+
             <div class="clearfix"></div>
+
             <textarea
               name="message"
               id="message"
               cols="30"
               rows="10"
               placeholder="Message"
+              required
             ></textarea>
+
             <input type="submit" value="Send" />
             <div class="clearfix"></div>
           </form>
+
         </div>
       </div>
 
